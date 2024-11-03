@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Ngertos.</title>
+</svelte:head>
+
 <div class="py-8">
 	<h1 class="text-center text-2xl font-semibold">
 		Mau <span class="text-lime-600">belajar</span> apa hari ini?
@@ -21,6 +25,49 @@
 					d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
 				/></svg
 			>
+		</div>
+	</div>
+</div>
+<div class="">
+	<div class="flex flex-wrap gap-x-2 gap-y-6">
+		<div class="flex h-36 w-28 grow flex-col items-center rounded md:h-56 md:w-44">
+			<img
+				src="/math.webp"
+				alt="Matematika"
+				class="h-28 w-full rounded-lg object-cover transition ease-in-out hover:scale-105 md:h-44"
+			/>
+			<a
+				href="/materi?search=matematika"
+				class="mt-2 inline-block text-lg font-medium hover:text-lime-600 md:mt-3 md:text-xl"
+			>
+				Matematika
+			</a>
+		</div>
+		<div class="flex h-36 w-28 grow flex-col items-center rounded md:h-56 md:w-44">
+			<img
+				src="/programming.webp"
+				alt="Informatika"
+				class="h-28 w-full rounded-lg object-cover transition ease-in-out hover:scale-105 md:h-44"
+			/>
+			<a
+				href="/materi?search=informatika"
+				class="mt-2 inline-block text-lg font-medium hover:text-lime-600 md:mt-3 md:text-xl"
+			>
+				Informatika
+			</a>
+		</div>
+		<div class="flex h-36 w-28 grow flex-col items-center rounded md:h-56 md:w-44">
+			<img
+				src="/english.webp"
+				alt="Bahasa Inggris"
+				class="h-28 w-full rounded-lg object-cover transition ease-in-out hover:scale-105 md:h-44"
+			/>
+			<a
+				href="/materi?search=bahasa%20inggris"
+				class="mt-2 inline-block text-lg font-medium hover:text-lime-600 md:mt-3 md:text-xl"
+			>
+				Bahasa Inggris
+			</a>
 		</div>
 	</div>
 </div>

@@ -6,7 +6,7 @@
 <header class="border-b">
 	<nav class="mx-auto max-w-screen-md px-5 py-8 text-center">
 		<a href="/" class="text-2xl font-medium text-lime-600 hover:text-lime-700">ngertos.</a>
-		<nav class="mt-3 flex justify-center gap-4 text-sm">
+		<nav class="mt-3 flex items-center justify-center gap-4 text-sm">
 			<a href="/materi" class="hover:text-lime-700">Materi & Soal</a>
 			<p>|</p>
 			<a href="/eksperimen" class="hover:text-lime-700">Eksperimen</a>
