@@ -1,12 +1,16 @@
+<script>
+	import PostCard from '../lib/components/post-card.svelte';
+</script>
+
 <svelte:head>
 	<title>Ngertos.</title>
 </svelte:head>
 
 <div class="py-8">
-	<h1 class="text-center text-2xl font-semibold">
+	<h1 class="text-center text-2xl font-semibold md:text-3xl">
 		Mau <span class="text-lime-600">belajar</span> apa hari ini?
 	</h1>
-	<div class="mt-4 flex w-full items-center">
+	<div class="mt-5 flex w-full items-center">
 		<input
 			type="text"
 			class="form-input h-10 w-10/12 rounded-l border-transparent bg-lime-50 px-4 py-2 focus:border-lime-600 focus:bg-white focus:ring-0 md:w-11/12"
@@ -38,7 +42,7 @@
 			/>
 			<a
 				href="/materi?search=matematika"
-				class="mt-2 inline-block text-lg font-medium hover:text-lime-600 md:mt-3 md:text-xl"
+				class="mt-2 inline-block text-lg font-medium hover:text-lime-600 md:mt-3"
 			>
 				Matematika
 			</a>
@@ -51,7 +55,7 @@
 			/>
 			<a
 				href="/materi?search=informatika"
-				class="mt-2 inline-block text-lg font-medium hover:text-lime-600 md:mt-3 md:text-xl"
+				class="mt-2 inline-block text-lg font-medium hover:text-lime-600 md:mt-3"
 			>
 				Informatika
 			</a>
@@ -64,10 +68,30 @@
 			/>
 			<a
 				href="/materi?search=bahasa%20inggris"
-				class="mt-2 inline-block text-lg font-medium hover:text-lime-600 md:mt-3 md:text-xl"
+				class="mt-2 inline-block text-lg font-medium hover:text-lime-600 md:mt-3"
 			>
 				Bahasa Inggris
 			</a>
 		</div>
+	</div>
+</div>
+<div class="mt-24">
+	<h2 class="text-2xl font-semibold">Materi & Soal Terbaru</h2>
+	<div class="mt-4 grid grid-cols-1 gap-6">
+		<PostCard />
+		<PostCard />
+		<PostCard />
+		<PostCard />
+		<PostCard />
+		<PostCard />
+		<PostCard />
+		<PostCard />
+		<PostCard />
+		<PostCard />
+	</div>
+	<div class="mt-10 text-center">
+		<a href="/materi" class="rounded bg-lime-600 px-4 py-2 text-white hover:bg-lime-700"
+			>Lebih banyak lagi</a
+		>
 	</div>
 </div>
