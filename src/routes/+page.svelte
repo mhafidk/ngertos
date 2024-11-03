@@ -79,19 +79,43 @@
 	<h2 class="text-2xl font-semibold">Materi & Soal Terbaru</h2>
 	<div class="mt-4 grid grid-cols-1 gap-6">
 		<PostCard />
-		<PostCard />
-		<PostCard />
-		<PostCard />
-		<PostCard />
-		<PostCard />
-		<PostCard />
-		<PostCard />
-		<PostCard />
-		<PostCard />
 	</div>
 	<div class="mt-10 text-center">
-		<a href="/materi" class="rounded bg-lime-600 px-4 py-2 text-white hover:bg-lime-700"
-			>Lebih banyak lagi</a
+		<a
+			href="/materi"
+			class="border-b-2 border-lime-600 text-lime-600 hover:border-lime-700 hover:text-lime-700"
+			><div
+				class="flex items-center justify-center gap-2 transition ease-in-out hover:translate-x-3"
+			>
+				<p>Lebih banyak lagi</p>
+				<p class="text-2xl font-bold">&#11106;</p>
+			</div></a
 		>
 	</div>
+</div>
+<div class="mt-28 rounded bg-neutral-50 px-10 py-12 shadow-md" id="tentang">
+	<h2 class="text-center text-2xl font-semibold">Tentang</h2>
+	<p class="mt-4">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui sunt quos hic repellat, quibusdam
+		minima laboriosam sequi sapiente vitae. Exercitationem, pariatur magnam? Officia sapiente libero
+		animi laboriosam quibusdam minima vero!
+	</p>
+	<p class="mt-4">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui sunt quos hic repellat, quibusdam
+		minima laboriosam sequi sapiente vitae. Exercitationem, pariatur magnam? Officia sapiente libero
+		animi laboriosam quibusdam minima vero!
+	</p>
+	<p class="mt-4">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui sunt quos hic repellat, quibusdam
+		minima laboriosam sequi sapiente vitae. Exercitationem, pariatur magnam? Officia sapiente libero
+		animi laboriosam quibusdam minima vero!
+	</p>
+</div>
+<div class="my-36 animate-bounce text-center">
+	<a href="/#" class=" text-lime-600 hover:text-lime-700"
+		><div class="inline-block">
+			<p class="text-2xl font-bold">&#11105;</p>
+			<p>Kembali ke atas</p>
+		</div></a
+	>
 </div>
